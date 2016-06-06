@@ -1,3 +1,21 @@
 body{
 	font: Arial, sans-serif;
 }
+
+h1{
+	height: auto;
+	padding: 50px 0 0 0;
+}
+
+.navigationBar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: auto;
+	background-color: red;
+}
+
+.test{
+	height: 500px;
+	background-color: green;
+}
