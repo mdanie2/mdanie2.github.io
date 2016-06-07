@@ -4,7 +4,7 @@ body{
 	flex-direction: column; /*put each in own row*/
 	align-items: center; /*Center length wise. ---example---*/
 	/*justify-content: center;*/
-	background-image: url('hawaii.png');
+	background-image: url('hawaii.jpeg');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
