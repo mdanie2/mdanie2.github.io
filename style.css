@@ -1,0 +1,19 @@
+body{
+	font: Arial, sans-serif;
+	display: flex;
+	flex-direction: column; /*put each in own row*/
+	align-items: center; /*Center length wise. ---example---*/
+	/*justify-content: center;*/
+	background-image: url('hawaii.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.navigationBar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: auto;
+	background-color: red;
+}
