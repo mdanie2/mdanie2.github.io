@@ -1,10 +1,19 @@
 body{
 	font: Arial, sans-serif;
-	background-image: url('hawaii.jpeg');
+	background-image: url('images/hawaii.jpeg');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	text-align: center;
+	margin-left: 0px;
+}
+
+img{
+	width: 100%;
+}
+
+tbody{
+	width: 100%;
 }
 
 a{
@@ -25,7 +34,26 @@ a:link{
 	width: 100%;
 	height: auto;
 	background-color: red;
-	z-index: 999; /*puts it in front of other elements*/
+	z-index: 1; /*puts it in front of other elements*/
+}
+
+.section{
+	height:auto;
+	width: 100%;
+}
+
+.leftBig, .rightBig{
+	width: 54%;
+}
+
+.leftSmall, .rightSmall{
+	width: 44%;
+}
+
+.leftSmall, .rightSmall, .leftBig, .rightBig{
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
 }
 
 #invisibody{
@@ -36,8 +64,11 @@ a:link{
 	justify-content: center;
 }
 
+#minecraft{
+	background-image: url('images/lightning.png');
+}
+
 #maincontainer{
-	background-color: white;
-	opacity: .65;
-	width: 70%;
+	background-color: rgba(255,255,255, 0.65);
+	width: 85%;
 }
