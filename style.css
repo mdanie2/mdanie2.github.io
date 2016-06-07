@@ -1,13 +1,22 @@
 body{
 	font: Arial, sans-serif;
-	display: flex;
-	flex-direction: column; /*put each in own row*/
-	align-items: center; /*Center length wise. ---example---*/
-	/*justify-content: center;*/
 	background-image: url('hawaii.jpeg');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:link{
+	color: blue;
 }
 
 .navigationBar{
@@ -16,4 +25,19 @@ body{
 	width: 100%;
 	height: auto;
 	background-color: red;
+	z-index: 999; /*puts it in front of other elements*/
+}
+
+#invisibody{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	/*align-content: center; Center length wise. ---example---*/
+	justify-content: center;
+}
+
+#maincontainer{
+	background-color: white;
+	opacity: .65;
+	width: 70%;
 }
