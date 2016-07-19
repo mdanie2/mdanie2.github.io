@@ -21,11 +21,13 @@ a{
 .navigationBar{
 	position: fixed;
 	top: 0px;
+	left: 0px;
 	width: 100%;
-	height: auto;
+	height: 4%;
 	background-color: black;
 	z-index: 1; /*puts it in front of other elements*/
 	font-color: white;
+	display: inline-block;
 }
 
 .sections{
@@ -48,8 +50,15 @@ a{
 	margin-top: 30px;
 }
 
-#navItem{
+a.navItem:hover{
+	background-color: red;
+}
+
+.navItem{
 	color: white;
+	height: 100%;
+	display: inline-block;
+	width: 10%;
 }
 
 #invisibody{
@@ -67,4 +76,5 @@ a{
 #maincontainer{
 	background-color: rgba(255,255,255, 0.65);
 	width: 85%;
+	padding-top: 1%;
 }
