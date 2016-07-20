@@ -56,9 +56,10 @@ a.navItem:hover{
 
 .navItem{
 	color: white;
-	height: 100%;
+	height: calc(100% - 3px);
 	display: inline-block;
 	width: 10%;
+	padding-top: 3px;
 }
 
 #invisibody{
