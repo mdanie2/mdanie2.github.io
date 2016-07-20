@@ -2,34 +2,35 @@ body{
 	font: Arial, sans-serif;
 	background-image: url('images/hawaii.jpeg');
 	background-size: 100%;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
 	text-align: center;
-	margin-left: 0px;
 }
 
 img{
 	width: 100%;
+	height: inherit;
 }
 
 a{
 	text-decoration: none;
-}
-
-a{
 	color: blue;
 }
 
 .navigationBar{
 	position: fixed;
 	top: 0px;
+	left: 0px;
+	/*margin-left: -10px;*/
 	width: 100%;
-	height: auto;
-	background-color: red;
+	height: 7%;
+	background-color: black;
 	z-index: 1; /*puts it in front of other elements*/
+	font-color: white;
+	display: inline-block;
 }
 
-.section{
+.sections{
 	height:auto;
 	width: 100%;
 }
@@ -49,6 +50,22 @@ a{
 	margin-top: 30px;
 }
 
+a.navItem:hover{
+	background-color: red;
+}
+
+.navItem{
+	color: white;
+	height: calc(100% - 6px);
+	display: inline-block;
+	width: 10%;
+	padding-top: 6px;
+}
+
+.homepageItems{
+	height: 20%;
+}
+
 #invisibody{
 	height: 100%;
 	width: 100%;
@@ -63,5 +80,7 @@ a{
 
 #maincontainer{
 	background-color: rgba(255,255,255, 0.65);
+	height: 100%;
 	width: 85%;
+	padding-top: 1%;
 }
