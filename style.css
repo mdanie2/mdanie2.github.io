@@ -1,5 +1,5 @@
 body{
-	font: Arial, sans-serif;
+	font-family: Times, serif;
 	background-image: url('images/hawaii.jpeg');
 	background-size: 100%;
 	/*background-repeat: no-repeat;*/
@@ -15,6 +15,10 @@ img{
 a{
 	text-decoration: none;
 	color: blue;
+}
+
+p{
+	font-size: 20px;
 }
 
 .navigationBar{
@@ -36,6 +40,7 @@ a{
 
 .leftBig, .rightBig{
 	width: 50%;
+	/*text-align: justify;*/
 }
 
 .leftSmall, .rightSmall{
