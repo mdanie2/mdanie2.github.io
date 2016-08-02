@@ -1,8 +1,7 @@
 body{
-	font: Arial, sans-serif;
+	font-family: Times, serif;
 	background-image: url('images/hawaii.jpeg');
 	background-size: 100%;
-	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
 	text-align: center;
 }
@@ -15,6 +14,11 @@ img{
 a{
 	text-decoration: none;
 	color: blue;
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
 }
 
 .navigationBar{
@@ -31,15 +35,19 @@ a{
 
 .sections{
 	height:auto;
-	width: 100%;
+	width: 99%;
 }
 
 .leftBig, .rightBig{
-	width: 50%;
+	width: 49%;
 }
 
 .leftSmall, .rightSmall{
 	width: 49%;
+}
+
+.leftSmall, .leftBig{
+	margin-left: 1%
 }
 
 .leftSmall, .rightSmall, .leftBig, .rightBig{
@@ -63,6 +71,10 @@ a.navItem:hover{
 
 .homepageItems{
 	height: 20%;
+}
+
+.bold{
+	font-weight: bold;
 }
 
 #invisibody{
