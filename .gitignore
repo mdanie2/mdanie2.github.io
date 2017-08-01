@@ -1,2 +1,6 @@
 #OSx
 *.DS_Store
+
+old/
+dev-tools/
+*.min.*
