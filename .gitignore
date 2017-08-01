@@ -3,3 +3,4 @@
 
 old/
 dev-tools/
+*.min.js
